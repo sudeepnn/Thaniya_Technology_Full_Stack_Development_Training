@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container1{
+    height: 100px;
+    width: 100px;
+    background-color: #c6d525;
+   position: relative;
+   
+  
+}
+.container2{
+    height: 100px;
+    width: 100px;
+    background-color: #dc2929;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.container3{
+    height: 100px;
+    width: 100px;
+    background-color: #2947dc;
+    position: relative;
+    left: 200px;
+    top: 200px;
+   
+}

@@ -1,0 +1,16 @@
+h1 {
+    color: #F0B86E;
+    font-family: cursive;
+    font-size: 100px;
+    margin: 50px;
+    padding: 50px;
+    background-color: #BEADFA;
+    font-family:Audiowide ;
+}
+p{
+    font-family:Audiowide ;
+}
+th, td, table{
+    border: 1px  solid #000;
+    border-collapse: collapse ;
+}
