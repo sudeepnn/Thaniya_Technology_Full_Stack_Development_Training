@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 8</title>
+    <style>
+        .con{
+            display: none;
+        }
+    </style>
+   
+</head>
+<body>
+   
+    <h1 id="h1" onclick="myfun()" >hello js</h1>
+    <div id="div"  style="height: 100px;width: 100px;background-color: aqua;"></div>
+    <button id="hide_btn">hide</button>
+    <button id="unhide_btn">unhide</button>
+
+
+
+
+    <br>
+
+
+    <br>
+    <br>
+    <input type="text" id="input">
+    <button id="check_btn">check length</button>
+    <p id="res"> </p>
+</body>
+
+<script>
+
+    var input=document.getElementById("input")
+    var checkbtn=document.getElementById("check_btn")
+    var res=document.getElementById("res")
+    checkbtn.addEventListener("click",function(e){
+        res.innerHTML="input length is : "
+        res.innerHTML+= input.value.length
+       
+    })
+
+
+    btn_pointer=document.getElementById("hide_btn")
+    unhide_btn_pointer=document.getElementById("unhide_btn")
+    btn_pointer.addEventListener("click",function(e){
+        document.getElementById("div").classList.add("con")
+    })
+
+
+    unhide_btn_pointer.addEventListener("click",function(e){
+        document.getElementById("div").classList.remove("con")
+    })
+
+    
+   // alert("hello")
+//     console.log("javascript")
+//     var global="Thaniya"
+//     let b=20
+//     const pi=3.14
+//     global+="technologies"
+//     console.log(pi)
+//     console.log(global)
+   
+//     var a=3
+//     console.log(a+"3")
+//     console.log(a+3)
+
+    
+    function myfun(){
+      var h1pointer=document.getElementById("h1")
+    
+        h1pointer.innerHTML="hi JS"
+        h1pointer.style.color="red"
+    }
+// console.log(num)
+
+// for(var i=0;i<5;i++){
+//     console.log((i+1)+" hello")  
+// }
+
+
+</script>
+
+</html>
