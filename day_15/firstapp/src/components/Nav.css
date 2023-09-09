@@ -1,0 +1,20 @@
+.navbar{
+    background-color: rgba(85, 85, 252, 0.855);
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  .nav_containt{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+  }
+  .nav_containt a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+  }
